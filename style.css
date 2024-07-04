@@ -26,16 +26,16 @@ h1 {
 .container {
   display: flex;
   background-color: white;
-  border-radius: 10px;
-  height: 375px;
-  width: 260px;
+  border-radius: 0px 10px 10px 0px;
+  height: 400px;
+  width: 320px;
   text-align: start;
 }
 
 .imagen-perfume {
-  width: 260px;
-  height: 375px;
-  border-radius: 10px;
+  width: 320px;
+  height: 400px;
+  border-radius: 10px 0px 0px 10px;
   position: relative;
   left: 10px;
 }
@@ -100,7 +100,7 @@ img {
     left: 10px;
     width: 350px;
     top: -20px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 0px;
   }
 
   .imagen-perfume {
