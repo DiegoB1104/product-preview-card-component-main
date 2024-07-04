@@ -86,7 +86,7 @@ img {
 
 /* Responsive Desing */
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .contenedor {
     display: flex;
     flex-direction: column;
@@ -103,9 +103,14 @@ img {
   }
 
   .imagen-perfume {
-    width: 345px;
+    width: 350px;
     border-radius: 10px;
     position: relative;
     align-items: center;
+  }
+
+  .boton {
+    width: 90%;
+    margin-top: 20px;
   }
 }
