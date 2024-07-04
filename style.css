@@ -1,0 +1,73 @@
+body {
+  font-size: 13px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  width: 90%;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  width: 70%;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  height: 354px;
+  width: 490px;
+  margin: auto;
+  margin-top: 180px;
+}
+
+.imagen-perfume {
+  width: 230px;
+  height: 355px;
+  border-radius: 10px;
+}
+
+.informacion-producto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  text-align: start;
+}
+
+.precio {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+.precio h1 {
+  color: hsl(158, 36%, 37%);
+  margin-right: 20px;
+}
+
+.precio p {
+  text-decoration: line-through;
+}
+
+.boton {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.boton h4 {
+  margin-left: 10px;
+  font-size: 10px;
+  font-weight: 700;
+}
